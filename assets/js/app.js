@@ -48,3 +48,6 @@ const cardArray = [
         img: 'assets/media/images/pizza.png'
     }
 ];
+
+// shuffle array - compares two values and sorts.
+cardArray.sort(() => 0.5 - Math.random());
